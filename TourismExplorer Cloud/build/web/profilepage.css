@@ -1,0 +1,170 @@
+body{
+background-image: url('https://i.pinimg.com/originals/7f/f5/aa/7ff5aa2204c532c80dcc425080aeb1be.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.div1
+    {
+        background-image: url('https://i.pinimg.com/736x/9c/f7/0c/9cf70c4747c7589c0244588575c30857.jpg');
+        text-align: center;
+        background-color: skyblue;
+        width:18.9%;
+        background-position-y: center;
+        background-position-x: center;
+        height:100%;
+        float:left
+    }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    border: 1px solid rgb(252, 250, 247);
+    
+}
+li a{
+    display: block;
+    background-color: seagreen;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: .5px solid rgb(252, 250, 248);
+    
+}
+
+li a:hover{
+    background-color: salmon;
+}
+
+li a.active{
+    background-color: aquamarine;
+}
+.state, .tourism{
+    background-color: #101110;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: .5px solid rgb(250, 248, 245);
+    cursor: pointer;
+    width: 257px;
+    margin: 0;
+    
+  }
+.item{
+    background-color: #101110;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: .5px solid rgb(250, 248, 245);
+    cursor: pointer;
+    width: 257px;
+    margin: 0;
+  }  
+  
+  .hotel{
+    background-color: #101110;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: .5px solid rgb(250, 248, 245);
+    cursor: pointer;
+    width: 257px;
+    margin: 0;
+  }  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f9f9f9;
+    min-width: 257px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a:hover {background-color: green}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover #drpbtn {
+    background-color: #3e8e41;
+  }

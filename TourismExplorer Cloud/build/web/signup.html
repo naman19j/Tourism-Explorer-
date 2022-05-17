@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SignUp Form</h1>
+    <div class="container">
+        <div class="div1">
+            <br><br><br>
+            <h4><b>FIRST NAME<br><br>LAST NAME<br><br>EMAIL<br><br>PASSWORD<br><br>CONFIRM PASSWORD</b><h4>
+        </div>
+        <div class="div2">
+            <form action="signup.jsp" name="signup" id="signup" method="POST">
+            <br><br><br><br>
+            <input type="text" name = "fname" id = "fname" placeholder="Enter First Name"><br><br>
+        <input type="text" name = "lname" id = "lname" placeholder="Enter Last Name "><br><br>
+        <input type="email" name = "email" id = "email" placeholder="Enter Email"><br><br>
+        <input type="password" name = "pass" id = "pass" placeholder="Enter Password"><br><br>
+            <input type="password" name = "passcfrm" id = "passcfrm" placeholder="Re-enter Password"><br><br>
+            <button type = "submit" class="button" onclick="return Validate()"><span>SUBMIT</span></button>
+            </form>
+            </div>
+    </div>
+</body>
+    <script src="signupvalidation.js"></script>
+</html>
